@@ -1,0 +1,23 @@
+BODY,DIV,TABLE,THEAD,TBODY,TFOOT,TR,TH,TD,P { font-family:"Arial"; font-size:x-small }
+    
+tr.person2 {
+    background-color: #9370DB; color: black;
+    border-width: 1px;
+}
+tr.person1 {
+    background-color: #90EE90; color: black;
+    border-width: 1px;
+}
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    font-size: small; 
+
+}
+td.name2 {
+        font-weight: bold; 
+}
+td.name1 {
+        font-weight: bold; 
+}
