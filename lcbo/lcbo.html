@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>LCBO Sale Finder</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+		<script src="js/lcbo.js"></script>
+		
+		<script>
+			$(document).ready(function (){
+				lcboSetup();
+				NewSearch();
+			});		
+		</script>
+		
+		<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/eggplant/jquery-ui.css" rel="stylesheet" />
+		<link type="text/css" href="css/lcbo.css" rel="stylesheet" />
+	</head>	
+	<body>	
+		<div id='controls' class="controls ui-widget-content ui-corner-all">			
+			<input type="radio" name="choice" id="promotionCheck"> Has Some Kind of Promotion</input>
+			<input type="radio" name="choice" id="offerCheck"> On Sale</input>
+			<input type="radio" name="choice" id="airmilesCheck"> Has Bonus Airmiles</input>
+		</div>		
+		<div>
+			<span class="productsLeft">
+				<h3 id="productsTitle" class="ui-widget-header ui-corner-all">Page [<span id="pageNumber"></span>] of [<span id="totalPages"></span>] </h3>
+				<div id='results'></div>
+				<br />
+				<div id='paging' class="ui-widget-header ui-corner-all">
+					<button id="prev" type="button">Previous</button>
+					<button id="next" type="button" style="float:right">Next</button>
+				</div>
+			</span>
+			<span class="productsRight">
+				<h3 id="singleProductTitle" class="ui-widget-header ui-corner-all">The Product</h3>
+				<div id="productDiv" class="productSpan"></div>
+			</span>	
+		</div>		
+		<div id='error' class="errorDiv ui-widget-content ui-corner-all" > 		
+			&nbsp;
+		</div>		
+	</body>	
+</html>

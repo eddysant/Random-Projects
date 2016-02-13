@@ -1,0 +1,53 @@
+body
+{			
+	background-color:#373F24;
+}
+
+.controls {
+	text-align:center;
+}
+
+.productsLeft {
+	margin-top: 25px; 
+	padding: 5px;
+	background-color:#2b3319;
+	width:48%;				
+	float: left;
+	height: 520px;
+}
+
+.productsRight {
+	margin-top: 25px; 
+	padding: 5px;
+	background-color:#2b3319;
+	width:48%;
+	float: right;
+	height: 520px;
+}
+
+.errorDiv {
+	margin-top: 575px; 
+}
+
+.productListItem {				
+	width:70%;				
+	float: left;				
+}
+
+.productListPrice {
+	width:29%;
+	float: right;
+}			
+
+.evenRow {
+	background-color:#ffffff;
+}
+
+.oddRow {
+	background-color:#f7eefb;
+}
+
+.productSpan {
+	background-color:#dbe1c9;
+	height:450px;
+}	
