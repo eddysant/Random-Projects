@@ -5,25 +5,27 @@ This repo is just a collections of projects I worked on for programming contests
 ###Learning:
 
 ####Conquest
-<pre>C#</pre> - project learning about windows phone development
+<b>C#</b> - project learning about windows phone development
 
 ####DoublesScheduler
-<pre>C#</pre> - programming project
+<b>C#</b> - programming project
 
 ####RandomWeather
-<pre>C# | javascript</pre> - starting code for an HTML 5 project
+<b>C# | javascript</b> - starting code for an HTML 5 project
 
 ####lcbo
-<pre>javascript</pre> - small project to consume a fake API
+<b>javascript</b> - small project to consume a fake API
 
 ####iPhone Message Script	iPhone Conversation Script
-<pre>Python</pre> - used on an iPhone 3GS to parse a text conversation between two people and turn it into an HTML file
+<b>Python</b> - used on an iPhone 3GS to parse a text conversation between two people and turn it into an HTML file
+
+
 ###Contest Entries:
 
 ####ConvolutionMatrix
-<pre>C#</pre> - winning entry in programming contest
+<b>C#</b> - winning entry in programming contest
 
 ####SharpSorter
-<pre>C#</pre> - winning entry in programming contest
+<b>C#</b> - winning entry in programming contest
 
 
