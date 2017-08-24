@@ -1,5 +1,0 @@
-D:\Projects\Conquest\ConquestLibraryTests\bin\Debug\ConquestLibraryTests.dll
-D:\Projects\Conquest\ConquestLibraryTests\bin\Debug\ConquestLibraryTests.pdb
-D:\Projects\Conquest\ConquestLibraryTests\obj\Debug\ResolveAssemblyReference.cache
-D:\Projects\Conquest\ConquestLibraryTests\obj\Debug\ConquestLibraryTests.dll
-D:\Projects\Conquest\ConquestLibraryTests\obj\Debug\ConquestLibraryTests.pdb
